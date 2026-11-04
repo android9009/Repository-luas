@@ -1,0 +1,296 @@
+---@meta
+-- neverlose CS:GO API — events module. Auto-generated from docs-csgo.neverlose.cc.
+-- Do not edit by hand; regenerate from the raw docs instead.
+
+--=============================================================================
+-- Event handle
+--=============================================================================
+
+---A handle returned when indexing the `events` namespace with an event name.
+---
+---Use `:set` to register a callback, `:unset` to remove it, `:call` to fire the
+---event manually, and the handle is also directly callable to set / toggle a
+---callback.
+---
+---The generic parameter `T` is the type of the callback function, so the
+---callback's arguments autocomplete for each concrete event.
+---@class EventHandle<T>
+---Sets the callback for the specified event. The registered function will be
+---called every time the specified event occurs.
+---@field set fun(self: EventHandle, callback: T)
+---Unsets the callback that was set via the `:set` function from the specified event.
+---@field unset fun(self: EventHandle, callback: T)
+---Fires the specified event, passing the given arguments to the callback.
+---@field call fun(self: EventHandle, ...: any)
+---Sets / unsets the callback for the specified event.
+---
+---If `state` is omitted the callback state is toggled; otherwise `true` sets the
+---callback and `false` unsets it.
+---@field __call fun(self: EventHandle, callback: T, state?: boolean)
+
+--=============================================================================
+-- Callback data structures
+--=============================================================================
+
+---Context passed to the `render_glow` callback. Call `:render` to draw glow lines.
+---@class RenderGlowCtx
+---Draws a glow line.
+---@field render fun(self: RenderGlowCtx, from: vector, to: vector, thickness: number, flags: string, color: color)
+
+---Data passed to the `override_view` callback.
+---@class OverrideViewData
+---@field fov number Field of View
+---@field view vector Camera view angles
+---@field camera vector World position of the camera
+
+---UserCmd — the move command passed to the `createmove` callback.
+---@class UserCmd
+---@field block_movement number Set to `1` to slow you to the weapon's minimal speed, `2` to fully stop you. Defaults to `0`
+---@field no_choke boolean Set to `true` to force the cheat to not choke the current command
+---@field send_packet boolean Set to `false` to force the cheat to choke the current command
+---@field force_defensive boolean Set to `true` to trigger the `'defensive'` exploit (Double tap must be fully charged)
+---@field jitter_move boolean Set to `false` to disable jitter move
+---@field choked_commands number Amount of choked commands
+---@field command_number number Current command number
+---@field tickcount number Current command tickcount
+---@field random_seed number Current command random seed
+---@field view_angles vector Player view angles
+---@field move_yaw number Movement yaw angle
+---@field forwardmove number Forward / backward speed
+---@field sidemove number Left / right speed
+---@field upmove number Up / down speed
+---@field in_attack boolean +attack button state
+---@field in_attack2 boolean +attack2 button state
+---@field in_use boolean +use button state
+---@field in_jump boolean +jump button state
+---@field in_duck boolean +duck button state
+---@field in_walk boolean +walk button state
+---@field in_speed boolean +speed button state
+---@field in_reload boolean +reload button state
+---@field in_moveleft boolean Move left button state
+---@field in_moveright boolean Move right button state
+---@field in_forward boolean Forward button state
+---@field in_back boolean Back button state
+---@field in_left boolean Left button state
+---@field in_right boolean Right button state
+---@field in_bullrush boolean Bullrush button state
+
+---RunCommand — the move command passed to the `createmove_run` callback.
+---@class RunCommand
+---@field choked_commands number Amount of choked commands
+---@field command_number number Current command number
+---@field tick_count number Current command tick count
+---@field move_yaw number Movement yaw angle
+---@field forwardmove number Forward / backward speed
+---@field sidemove number Left / right speed
+---@field upmove number Up / down speed
+
+---Data passed to the `aim_fire` callback.
+---@class AimFireData
+---@field id number Shot ID
+---@field target number Target entity index (pass to `entity.get`)
+---@field damage number Estimated damage
+---@field hitchance number Estimated hit chance
+---@field hitgroup number Targeted hitgroup
+---@field backtrack number Amount of ticks the player was backtracked
+---@field aim vector World position of the aim point
+---@field angle vector Aimbot shoot angles
+
+---Data passed to the `aim_ack` callback.
+---@class AimAckData
+---@field id number Shot ID
+---@field target number Target entity index (pass to `entity.get`)
+---@field damage number Actual shot damage
+---@field spread number Bullet spread angle if available
+---@field hitchance number Actual shot hit chance
+---@field hitgroup number Hitgroup that was hit
+---@field backtrack number Amount of ticks the player was backtracked
+---@field aim vector World position of the aim point
+---@field wanted_damage number Targeted damage
+---@field wanted_hitgroup number Targeted hitgroup
+---@field state string? Reason the shot was missed or nil if hit. Reasons: `spread`, `correction`, `misprediction`, `prediction error`, `backtrack failure`, `damage rejection`, `unregistered shot`, `player death`, `death`.
+
+---Data passed to the `bullet_fire` callback.
+---@class BulletFireData
+---@field entity entity Entity that did the shot
+---@field origin vector Entity world position
+---@field angles vector Aim angle based on entity rotation
+---@field sound number Sound type
+---@field spread number Weapon spread
+---@field inaccuracy number Weapon inaccuracy
+---@field recoil_index number Weapon recoil index
+---@field random_seed number Spread seed of the shot
+---@field weapon_id number Weapon definition index
+---@field weapon_mode number Weapon fire mode
+
+---Context passed to the `draw_model` callback.
+---@class DrawModelData
+---@field name string Name of the model. (e.g: `weapons\v_knife_cord.mdl`)
+---@field entity entity Entity that belongs to the model.
+---Draws the model with the specified material. Pass nil to the first argument
+---to draw the model with the default material.
+---@field draw fun(self: DrawModelData, material: Material?)
+
+---Data passed to the `pre_update_clientside_animation` / `post_update_clientside_animation` callbacks.
+---@class ClientsideAnimationData
+---@field player entity The player whose clientside animation is being updated.
+
+---Data passed to the `grenade_override_view` callback.
+---@class GrenadeOverrideViewData
+---@field angles vector Input view angles
+---@field src vector Input starting position or origin
+---@field velocity vector Input velocity
+---@field view_offset vector Input view offset
+
+---Data passed to the `grenade_warning` callback.
+---@class GrenadeWarningData
+---@field entity entity The game entity representing the grenade in proximity.
+---@field origin vector The current position of the grenade.
+---@field closest_point vector The nearest point to the player where the grenade will cause damage.
+---@field type string Type of the grenade, "Frag" or "Molly".
+---@field damage number Potential damage inflicted on the local player if they remain in place when it detonates.
+---@field expire_time number Time when the grenade detonates or is no longer a threat.
+---@field icon ImgObject A reference to the texture used in the warning.
+---@field path table Table of 3D vectors representing the complete trajectory path of the grenade.
+
+---Data passed to the `grenade_prediction` callback.
+---@class GrenadePredictionData
+---@field type string Type of the grenade, e.g. "Smoke", "Flash", "Frag".
+---@field damage number Amount of damage inflicted on the `target` due to the grenade's effect.
+---@field fatal boolean Whether the grenade's effect resulted in a lethal outcome for the `target`.
+---@field path table Table of 3D vectors representing the complete trajectory path of the grenade.
+---@field collisions table Table of 3D vectors of all collision points where the grenade interacts with an obstacle or wall.
+---@field target entity The game entity that the grenade directly impacts or affects.
+
+---Data passed to the `localplayer_transparency` callback.
+---@class LocalPlayerTransparencyData
+---@field current_alpha number The current alpha. Ranges from 0 (transparent) to 255 (opaque).
+
+---Read buffer for voice packets (`bf_read`).
+---@class bf_read
+---Reads a number value from the buffer. `:read_bits(num_bits)`
+---@field read_bits fun(self: bf_read, num_bits: number): number
+---Reads a floating number value from the buffer (4 bytes). `:read_coord()`
+---@field read_coord fun(self: bf_read): number
+---Resets the pointer of the buffer to its original offset.
+---@field reset fun(self: bf_read)
+---Encrypts/decrypts the buffer. `:crypt(key)`
+---@field crypt fun(self: bf_read, key: string)
+
+---Write buffer for voice packets (`bf_write`).
+---@class bf_write
+---Writes a number value to the buffer. `:write_bits(value, num_bits)`
+---@field write_bits fun(self: bf_write, value: number, num_bits: number)
+---Writes a floating number value to the buffer (4 bytes). `:write_coord(value)`
+---@field write_coord fun(self: bf_write, value: number)
+---Returns `true` if the buffer is overflowed.
+---@field is_overflowed fun(self: bf_write): boolean
+---Encrypts/decrypts the buffer. `:crypt(key)`
+---@field crypt fun(self: bf_write, key: string)
+
+---Data passed to the `voice_message` callback (when firing, the callback receives a `bf_write` buffer).
+---@class VoiceMessageData
+---@field entity entity Entity that belongs to the voice packet.
+---@field audible_mask number Audible mask
+---@field xuid number Xuid
+---@field proximity number Proximity
+---@field format number Format
+---@field sequence_bytes number Sequence bytes
+---@field section_number number Section number
+---@field uncompressed_sample_offset number Uncompressed sample offset
+---@field buffer bf_read Voice packet buffer
+---@field is_nl boolean Packet was sent by the Neverlose
+
+---Data passed to the `player_hurt` game event callback.
+---@class PlayerHurtData
+---@field userid number UserID of the victim
+---@field attacker number UserID of the attacker
+---@field health number Victim's remaining health
+---@field armor number Victim's remaining armor
+---@field weapon string Weapon used by the attacker
+---@field dmg_health number Damage done to health
+---@field dmg_armor number Damage done to armor
+---@field hitgroup number Hitgroup that was hit
+
+--=============================================================================
+-- events namespace
+--=============================================================================
+
+---The `events` namespace. Index it with an event name to obtain an
+---[`EventHandle`](lua://EventHandle) for that event.
+---
+---Any CS:GO game event name may be indexed; the fields below are the events
+---documented by the cheat plus common game events.
+---@class events
+---Fired every frame. Most functions from the `render` namespace can only be used here.
+---@field render EventHandle<fun(ctx: any)>
+---Fired every time the game prepares the glow object manager. Lets you render glow
+---lines via the [`RenderGlowCtx`](lua://RenderGlowCtx) passed to the callback.
+---@field render_glow EventHandle<fun(ctx: RenderGlowCtx)>
+---Fired every time the game prepares the camera view. Receives [`OverrideViewData`](lua://OverrideViewData).
+---@field override_view EventHandle<fun(e: OverrideViewData)>
+---Fired every time the game prepares a move command. Use this to modify something
+---before the aimbot or movement features. Receives the [`UserCmd`](lua://UserCmd).
+---@field createmove EventHandle<fun(cmd: UserCmd)>
+---Fired every time the game runs a move command. Receives the [`RunCommand`](lua://RunCommand).
+---@field createmove_run EventHandle<fun(cmd: RunCommand)>
+---Fired every time the aimbot shoots at a player. Receives [`AimFireData`](lua://AimFireData).
+---@field aim_fire EventHandle<fun(e: AimFireData)>
+---Fired to acknowledge the result of an aimbot shot. Receives [`AimAckData`](lua://AimAckData).
+---@field aim_ack EventHandle<fun(e: AimAckData)>
+---Fired every time someone fires a bullet. Receives [`BulletFireData`](lua://BulletFireData).
+---@field bullet_fire EventHandle<fun(e: BulletFireData)>
+---Fired every time the user runs a console command. The callback receives the input
+---string. Return `false` to prevent the game from processing the command.
+---@field console_input EventHandle<fun(text: string): boolean?>
+---Fired before a model is rendered. Receives [`DrawModelData`](lua://DrawModelData).
+---Return `false` to prevent the game from rendering the original model.
+---@field draw_model EventHandle<fun(ctx: DrawModelData): boolean?>
+---Fired after fully connected to the server (first non-delta packet received). (`SIGNONSTATE:FULL`)
+---@field level_init EventHandle<fun()>
+---Fired before a frame is rendered. (`FrameStageNotify:FRAME_RENDER_START`)
+---@field pre_render EventHandle<fun()>
+---Fired after a frame is rendered. (`FrameStageNotify:FRAME_RENDER_END`)
+---@field post_render EventHandle<fun()>
+---Fired before the game processes entity updates from the server. (`FrameStageNotify:FRAME_NET_UPDATE_START`)
+---@field net_update_start EventHandle<fun()>
+---Fired after an entity update packet is received from the server. (`FrameStageNotify:FRAME_NET_UPDATE_END`)
+---@field net_update_end EventHandle<fun()>
+---Fired every time config state is updated. The state is one of `pre_save`, `post_save`, `pre_load`, `post_load`.
+---@field config_state EventHandle<fun(state: string)>
+---Fired every time mouse input occurs. Return `false` to lock the mouse input.
+---@field mouse_input EventHandle<fun(): boolean?>
+---Fired when the script is about to unload.
+---@field shutdown EventHandle<fun()>
+---Fired before C_CSPlayer::UpdateClientSideAnimation is called. Receives [`ClientsideAnimationData`](lua://ClientsideAnimationData).
+---@field pre_update_clientside_animation EventHandle<fun(e: ClientsideAnimationData)>
+---Fired after C_CSPlayer::UpdateClientSideAnimation is called. Receives [`ClientsideAnimationData`](lua://ClientsideAnimationData).
+---@field post_update_clientside_animation EventHandle<fun(e: ClientsideAnimationData)>
+---Invoked to override the input values for grenade prediction. Receives [`GrenadeOverrideViewData`](lua://GrenadeOverrideViewData).
+---@field grenade_override_view EventHandle<fun(e: GrenadeOverrideViewData)>
+---Fired when the "Grenade Proximity Warning" is rendered. Receives [`GrenadeWarningData`](lua://GrenadeWarningData).
+---Return `false` to prevent it from being rendered.
+---@field grenade_warning EventHandle<fun(e: GrenadeWarningData): boolean?>
+---Fired when the cheat is drawing the predicted grenade trajectory. Receives [`GrenadePredictionData`](lua://GrenadePredictionData).
+---@field grenade_prediction EventHandle<fun(e: GrenadePredictionData)>
+---Invoked to override the opacity of the local player's model. Receives [`LocalPlayerTransparencyData`](lua://LocalPlayerTransparencyData).
+---Return a custom alpha value to override it.
+---@field localplayer_transparency EventHandle<fun(e: LocalPlayerTransparencyData): number?>
+---Fired every time the game receives a voice packet. Receives [`VoiceMessageData`](lua://VoiceMessageData).
+---Firing this event from Lua will send a voice packet (the callback receives a `bf_write` buffer).
+---@field voice_message EventHandle<fun(e: VoiceMessageData)>
+---CS:GO game event: fired when a player is hurt. Receives [`PlayerHurtData`](lua://PlayerHurtData).
+---@field player_hurt EventHandle<fun(e: PlayerHurtData)>
+---CS:GO game event: fired when a player dies.
+---@field player_death EventHandle<fun(e: table)>
+---CS:GO game event: fired when a weapon is fired.
+---@field weapon_fire EventHandle<fun(e: table)>
+---CS:GO game event: fired when a round starts.
+---@field round_start EventHandle<fun(e: table)>
+---CS:GO game event: fired when a round ends.
+---@field round_end EventHandle<fun(e: table)>
+---CS:GO game event: fired when a bullet impacts a surface.
+---@field bullet_impact EventHandle<fun(e: table)>
+---Any other CS:GO game event indexed by name.
+---@field [string] EventHandle<fun(e: table)>
+events = {}

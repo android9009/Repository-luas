@@ -1,0 +1,36 @@
+# Блокировка любых исполняемых файлов, библиотек и скомпилированного байткода (защита от РАТок и вирусов)
+*.exe
+*.dll
+*.sys
+*.scr
+*.bat
+*.cmd
+*.ps1
+*.vbs
+*.vbe
+*.jse
+*.wsf
+*.wsh
+*.msi
+*.com
+*.pif
+*.lnk
+*.jar
+*.hta
+*.cpl
+*.reg
+*.ljbc
+*.pyc
+*.pyd
+*.so
+*.dylib
+
+# Архивы (распаковывайте и проверяйте через python3 scripts/security_audit.py перед коммитом)
+*.zip
+*.rar
+*.7z
+
+# Системный мусор
+__pycache__/
+.DS_Store
+Thumbs.db

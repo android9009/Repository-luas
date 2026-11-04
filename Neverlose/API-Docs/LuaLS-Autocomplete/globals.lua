@@ -1,0 +1,43 @@
+---@meta
+-- neverlose CS:GO API — globals module. Auto-generated from docs-csgo.neverlose.cc.
+-- Do not edit by hand; regenerate from the raw docs instead.
+
+---The `globals` table exposes read-only game global variables.
+---@class globals
+---Server time in seconds.
+---@field curtime number
+---Local time in seconds.
+---@field realtime number
+---Duration of the last game frame in seconds.
+---@field frametime number
+---Amount of frames since the game started.
+---@field framecount number
+---Duration of the last game frame in seconds.
+---@field absoluteframetime number
+---Number of ticks elapsed on the server.
+---@field tickcount number
+---Duration of a tick in seconds.
+---@field tickinterval number
+---Maximum number of players on the server.
+---@field max_players number
+---Returns `true` if the player is connected, but not necessarily active in game (could still be loading).
+---@field is_connected boolean
+---Returns `true` if the player is currently connected to a game server.
+---@field is_in_game boolean
+---Number of choked commands.
+---@field choked_commands number
+---Current command number acknowledged by server.
+---@field commandack number
+---Sequence number of last outgoing command.
+---@field commandack_prev number
+---Number of last command sequence number acknowledged by server.
+---@field last_outgoing_command number
+---Last-received tick from the server.
+---@field server_tick number
+---The client's own tick count.
+---@field client_tick number
+---Last-valid received snapshot (server) tick.
+---@field delta_tick number
+---Difference between the server and client tick counts, used to predict the current server tick count.
+---@field clock_offset number
+globals = {}
