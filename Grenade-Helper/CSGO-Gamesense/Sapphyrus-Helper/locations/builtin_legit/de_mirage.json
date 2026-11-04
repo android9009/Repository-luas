@@ -1,0 +1,1612 @@
+[
+  {
+    "name": ["A Alley", "CT"],
+    "weapon": "weapon_smokegrenade",
+    "position": [936.03997802734, -1032.0100097656, -257.94744873047],
+    "viewangles": [-12.78, -143.92],
+    "grenade": {
+      "jump": true
+    }
+  },
+  {
+    "name": ["T Roof", "Middle of Boxes in A"],
+    "weapon": "weapon_smokegrenade",
+    "position": [875.96899414063, -1209.6899414063, -108.90619659424],
+    "viewangles": [-21.6513, -149.336]
+  },
+  {
+    "name": ["T Roof", "Stairs"],
+    "weapon": "weapon_smokegrenade",
+    "position": [1148.4000244141, -1183.9599609375, -205.57000732422],
+    "viewangles": [-43.1838, -165.255]
+  },
+  {
+    "name": ["T Roof", "Jungle"],
+    "weapon": "weapon_smokegrenade",
+    "position": [815.96899414063, -1457.4000244141, -108.90619659424],
+    "viewangles": [-26.9191, -174.367]
+  },
+  {
+    "name": ["Window", "Window (Oneway)"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-1209.0799560547, -873.27099609375, -167.90600585938],
+    "viewangles": [-48.214, 66.405]
+  },
+  {
+    "name": ["Alley", "B Bombsite"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-292.95700073242, 651.05499267578, -79.906196594238],
+    "viewangles": [-38.3833, -168.915]
+  },
+  {
+    "name": ["Back of Top Mid", "Short"],
+    "weapon": "weapon_smokegrenade",
+    "position": [399.96899414063, -17.062000274658, -199.76400756836],
+    "viewangles": [-47.0854, -174.254]
+  },
+  {
+    "name": ["T Spawn", "Connector"],
+    "weapon": "weapon_smokegrenade",
+    "position": [1135.9699707031, 647.97601318359, -261.32901000977],
+    "viewangles": [-28.5658, -140.282],
+    "grenade": {
+      "jump": true
+    }
+  },
+  {
+    "name": ["Alley", "B Short"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-160.03100585938, 887.97601318359, -135.26570129395],
+    "viewangles": [-44.5582, -134.517],
+    "position_visibility": [0, -15, 0]
+  },
+  {
+    "name": ["Alley", "Kitchen Window"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-784.01391601563, 623.96881103516, -75.968696594238],
+    "viewangles": [-60.9446, -151.417]
+  },
+  {
+    "name": ["Alley", "Bench"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-539.64898681641, 520.03100585938, -81.256698608398],
+    "viewangles": [-41.707, -178.889]
+  },
+  {
+    "name": ["Short", "Palace"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-903.96899414063, -376.03100585938, -158.42599487305],
+    "viewangles": [-17.0263, -60.0659],
+    "grenade": {
+      "jump": true
+    }
+  },
+  {
+    "name": ["Back of Top Mid", "Connector"],
+    "weapon": "weapon_smokegrenade",
+    "position": [398.96899414063, 174.52600097656, -248.86700439453],
+    "viewangles": [-47.1339, -136.79]
+  },
+  {
+    "name": ["Palace", "Balcony"],
+    "weapon": "weapon_flashbang",
+    "position": [367.96899414063, -2207.1999511719, -39.906200408936],
+    "viewangles": [-9.94947, -131.947]
+  },
+  {
+    "name": ["Sandwich", "Jungle-Connector"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-261.38900756836, -1546.3599853516, -167.90600585938],
+    "viewangles": [-41.1821, -7.27481],
+    "grenade": {
+      "jump": true
+    }
+  },
+  {
+    "name": ["B Balcony", "Kitchen Window"],
+    "weapon": "weapon_hegrenade",
+    "position": [-1952.0300292969, 691.41497802734, -47.906200408936],
+    "viewangles": [14.4959, -87.3997],
+    "grenade": {
+      "jump": true
+    }
+  },
+  {
+    "name": ["B Balcony", "Kitchen Window"],
+    "weapon": "weapon_molotov",
+    "position": [-1952.03125, 651.10858154297, -43.96875],
+    "viewangles": [19.1503, -87.132],
+    "grenade": {
+      "jump": true
+    }
+  },
+  {
+    "name": ["Under Balcony", "Palace"],
+    "weapon": "weapon_molotov",
+    "position": [150.96896362305, -2071.96875, -167.96875],
+    "viewangles": [-32.7864, 101.522],
+    "grenade": {
+      "run": 4
+    }
+  },
+  {
+    "name": ["T Roof", "Sandwich"],
+    "weapon": "weapon_molotov",
+    "position": [831.95587158203, -1255.1904296875, -108.96875],
+    "viewangles": [-19.8574, -165.016]
+  },
+  {
+    "name": ["Window", "Underpass"],
+    "weapon": "weapon_molotov",
+    "position": [-1183.9699707031, -456.03100585938, -167.90600585938],
+    "viewangles": [6.76069, -69.7633]
+  },
+  {
+    "name": ["Middle", "Window"],
+    "weapon": "weapon_smokegrenade",
+    "position": [360.07998657227, -691.96997070313, -162.5],
+    "viewangles": [-32.53, 177.9]
+  },
+  {
+    "name": ["CT Spawn", "Middle"],
+    "weapon": "weapon_flashbang",
+    "position": [-1711.9997558594, -1128.03125, -187.96870422363],
+    "viewangles": [-35.025, 34.8378]
+  },
+  {
+    "name": ["Alley", "B Default"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-148.0299987793, 353.0299987793, -34.430000305176],
+    "viewangles": [-47.48, 178.95],
+    "grenade": {
+      "jump": true
+    }
+  },
+  {
+    "name": ["Alley", "Market Window"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-160.0299987793, 887.96997070313, -135.33000183105],
+    "viewangles": [-50.38, -146.49],
+    "grenade": {
+      "jump": true
+    }
+  },
+  {
+    "name": ["Alley", "Market Door"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-160.0299987793, 887.96997070313, -135.33000183105],
+    "viewangles": [-45.01, -152.88],
+    "grenade": {
+      "jump": true
+    }
+  },
+  {
+    "name": ["Connector", "Underpass"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-807.96997070313, -1235.9699707031, -167.9700012207],
+    "viewangles": [6.94, 48.2],
+    "grenade": {
+      "run": 4
+    }
+  },
+  {
+    "name": ["Palace", "Under Balcony"],
+    "weapon": "weapon_molotov",
+    "position": [16.030000686646, -2359.9899902344, -39.970001220703],
+    "viewangles": [9.71, 73.4]
+  },
+  {
+    "name": ["Under Balcony", "A Ramp"],
+    "weapon": "weapon_flashbang",
+    "position": [150.96899414063, -1914.03125, -167.96870422363],
+    "viewangles": [-5.5099, -165.2456]
+  },
+  {
+    "name": ["Under Balcony", "A Ramp"],
+    "weapon": "weapon_flashbang",
+    "position": [-44.650001525879, -1922.0300292969, -167.9700012207],
+    "viewangles": [-13.1, 104.1]
+  },
+  {
+    "name": ["Short", "Middle"],
+    "weapon": "weapon_flashbang",
+    "position": [-752.03002929688, -52.430000305176, -161.88000488281],
+    "viewangles": [-52.99, -84.4],
+    "grenade": {
+      "jump": true
+    }
+  },
+  {
+    "name": ["Car", "B Apartments"],
+    "weapon": "weapon_flashbang",
+    "position": [-2114.0300292969, 706.46002197266, -134.96000671387],
+    "viewangles": [-1.55, 173]
+  },
+  {
+    "name": ["B Apartments", "Car"],
+    "weapon": "weapon_flashbang",
+    "position": [-1165.9699707031, 568.97998046875, -79.970001220703],
+    "viewangles": [-3.57, -80.9],
+    "grenade": {
+      "run": 20
+    }
+  },
+  {
+    "name": ["A Stairs", "A Ramp"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-552.36999511719, -1309.0300292969, -163.9700012207],
+    "viewangles": [-77.32, -17.64],
+    "grenade": {
+      "jump": true
+    }
+  },
+  {
+    "name": ["Middle", "Short"],
+    "weapon": "weapon_smokegrenade",
+    "position": [360.05999755859, -691.97998046875, -162.49000549316],
+    "viewangles": [-23.5, 162.36]
+  },
+  {
+    "name": ["T Roof", "Short"],
+    "weapon": "weapon_smokegrenade",
+    "position": [1148.4000244141, -1183.9599609375, -205.57000732422],
+    "viewangles": [-32.25, 153.79],
+    "grenade": {
+      "jump": true
+    }
+  },
+  {
+    "name": ["Alley", "Balcony"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-595.41998291016, 520.07000732422, -83.029998779297],
+    "viewangles": [-50.2, 171.48]
+  },
+  {
+    "name": ["B Bombsite", "Kitchen (Oneway)"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-1872.5400390625, -247.9700012207, -163.90744018555],
+    "viewangles": [15.7, -141.92]
+  },
+  {
+    "name": ["Triple Boxes", "Stairs"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-253.9700012207, -2134.080078125, -172.88743591309],
+    "viewangles": [-77.17, 113.32]
+  },
+  {
+    "name": ["Jungle", "A Ramp"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-1119.9699707031, -1527.0400390625, -156.0174407959],
+    "viewangles": [-12.79, -0.66]
+  },
+  {
+    "name": ["A Alley", "A Bombsite (Popflash)"],
+    "weapon": "weapon_flashbang",
+    "position": [743.96997070313, -1719.2800292969, -249.58000183105],
+    "viewangles": [-5.38, 176.14]
+  },
+  {
+    "name": ["CT", "A Ramp"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-1710.9699707031, -1489.3299560547, -257.91000366211],
+    "viewangles": [-56.86, -1.2],
+    "grenade": {
+      "jump": true
+    }
+  },
+  {
+    "name": ["CT Spawn", "B Bombsite"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-2026.3599853516, -2029.9699707031, -299.06744384766],
+    "viewangles": [-29.43, 86.93],
+    "grenade": {
+      "jump": true
+    }
+  },
+  {
+    "name": ["CT", "B Default"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-2031.9699707031, -1957.0200195313, -300.42999267578],
+    "viewangles": [-37.83, 88.81],
+    "grenade": {
+      "jump": true
+    }
+  },
+  {
+    "name": ["Middle", "Tetris"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-1071.9699707031, -380.0299987793, -263.9700012207],
+    "viewangles": [-28.04, -50.06],
+    "grenade": {
+      "jump": true
+    }
+  },
+  {
+    "name": ["Tetris", "Stairs"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-91.089996337891, -1418.0300292969, -115.9700012207],
+    "viewangles": [-31.76, -62.54],
+    "grenade": {
+      "jump": true
+    }
+  },
+  {
+    "name": ["A Stairs", "A Bombsite"],
+    "weapon": "weapon_flashbang",
+    "position": [-496.0299987793, -1309.0300292969, -159.9700012207],
+    "viewangles": [-60.07, -77.06]
+  },
+  {
+    "name": ["T Spawn", "Short"],
+    "weapon": "weapon_smokegrenade",
+    "position": [1135.9899902344, 647.96997070313, -261.39001464844],
+    "viewangles": [-43.86, -156.65],
+    "grenade": {
+      "jump": true
+    }
+  },
+  {
+    "name": ["T Spawn", "Window"],
+    "weapon": "weapon_smokegrenade",
+    "position": [1422.9899902344, 34.830001831055, -167.9700012207],
+    "viewangles": [-26.16, -166.36],
+    "position_visibility": [-44, 0, 0],
+    "grenade": {
+      "run": 71,
+      "jump": true
+    },
+    "duck": true
+  },
+  {
+    "name": ["T Spawn", "B Arch"],
+    "weapon": "weapon_smokegrenade",
+    "position": [496.0299987793, 679.96997070313, -135.9700012207],
+    "viewangles": [-45.7, -165.33],
+    "grenade": {
+      "jump": true
+    }
+  },
+  {
+    "name": ["CT Spawn", "Alley"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-1710.9699707031, -1208.0300292969, -255.08000183105],
+    "viewangles": [-48.81, 67.43],
+    "grenade": {
+      "fov": 0.1,
+      "jump": true
+    }
+  },
+  {
+    "name": ["A Alley", "Jungle"],
+    "weapon": "weapon_smokegrenade",
+    "position": [1239.9699707031, -1159.9699707031, -246.27000427246],
+    "viewangles": [-48.66, -173.19],
+    "grenade": {
+      "jump": true
+    }
+  },
+  {
+    "name": ["A Alley", "Window"],
+    "weapon": "weapon_smokegrenade",
+    "position": [1127.9799804688, -1208, -108.9700012207],
+    "viewangles": [-26.37, 166.51],
+    "grenade": {
+      "jump": true
+    }
+  },
+  {
+    "name": ["T Spawn", "B Bombsite"],
+    "weapon": "weapon_smokegrenade",
+    "position": [1398.9699707031, -1255.9699707031, -167.9700012207],
+    "viewangles": [-32.29, 159.6],
+    "grenade": {
+      "run": 15,
+      "jump": true
+    }
+  },
+  {
+    "name": ["T Spawn", "B Default"],
+    "weapon": "weapon_smokegrenade",
+    "position": [1398.9699707031, -1255.9699707031, -167.9700012207],
+    "viewangles": [-41.43, 155.2],
+    "grenade": {
+      "run": 24,
+      "jump": true
+    }
+  },
+  {
+    "name": ["CT Spawn", "Palace"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-1711.9699707031, -761.03002929688, -167.9700012207],
+    "viewangles": [-32.66, -38.86],
+    "grenade": {
+      "jump": true
+    }
+  },
+  {
+    "name": ["T Spawn", "Balcony"],
+    "weapon": "weapon_smokegrenade",
+    "position": [1422.9899902344, -248.00999450684, -167.9700012207],
+    "viewangles": [-46.5, 162.48],
+    "grenade": {
+      "fov": 0.2,
+      "run": 40,
+      "jump": true
+    }
+  },
+  {
+    "name": ["T Spawn", "B Arch"],
+    "weapon": "weapon_smokegrenade",
+    "position": [494.66000366211, 583.59997558594, -124],
+    "viewangles": [-53.8, -176.55],
+    "grenade": {
+      "jump": true
+    }
+  },
+  {
+    "name": ["Window", "Window (Oneway)"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-1120.0300292969, -456, -167.9700012207],
+    "viewangles": [54.42, -81.43]
+  },
+  {
+    "name": ["Window", "Window (Oneway)"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-1120.0100097656, -796, -167.9700012207],
+    "viewangles": [8.23, 85.8]
+  },
+  {
+    "name": ["A Bombsite", "A Ramp"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-554.96868896484, -2103.693359375, -179.96870422363],
+    "viewangles": [-10.4791, 48.569]
+  },
+  {
+    "name": ["Trash Bin", "B Apartments"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-2416, -115.76000213623, -157.9700012207],
+    "viewangles": [-28.17, 44.12]
+  },
+  {
+    "name": ["Trash Bin", "B Apartments"],
+    "weapon": "weapon_molotov",
+    "position": [-2416, -115.76000213623, -157.9700012207],
+    "viewangles": [-28.17, 44.12]
+  },
+  {
+    "name": ["Triple Boxes", "Tetris"],
+    "weapon": "weapon_molotov",
+    "position": [-365, -2173.0300292969, -176.19000244141],
+    "viewangles": [-26, 44.66]
+  },
+  {
+    "name": ["Tetris", "Triple Boxes"],
+    "weapon": "weapon_molotov",
+    "position": [-31.920000076294, -1418.0200195313, -167.9700012207],
+    "viewangles": [-19.77, -138.12]
+  },
+  {
+    "name": ["Cart", "Connector"],
+    "weapon": "weapon_flashbang",
+    "position": [343.29998779297, -621.61999511719, -163.42999267578],
+    "viewangles": [-14.39, -171.28]
+  },
+  {
+    "name": ["B Apartments", "Short"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-1367.9699707031, 815.98999023438, -79.970001220703],
+    "viewangles": [-3.81, -160.38]
+  },
+  {
+    "name": ["Short", "B Bombsite"],
+    "weapon": "weapon_flashbang",
+    "position": [-944.55999755859, -119.9700012207, -167.9700012207],
+    "viewangles": [-30.25, 26.39]
+  },
+  {
+    "name": ["Window", "Middle"],
+    "weapon": "weapon_flashbang",
+    "position": [-1120, -854.38000488281, -167.9700012207],
+    "viewangles": [-42.45, 135.65]
+  },
+  {
+    "name": ["A Stairs", "Connector"],
+    "weapon": "weapon_flashbang",
+    "position": [-496.0299987793, -1309.0300292969, -159.9700012207],
+    "viewangles": [-65.18, -10.26]
+  },
+  {
+    "name": ["A Stairs", "A Bombsite"],
+    "weapon": "weapon_flashbang",
+    "position": [-496, -1392.2700195313, -114.94000244141],
+    "viewangles": [-47.82, 93.07]
+  },
+  {
+    "name": ["T Spawn", "CT"],
+    "weapon": "weapon_smokegrenade",
+    "position": [1257.794921875, -871.96868896484, -143.96870422363],
+    "viewangles": [-21.82, -144.34],
+    "grenade": {
+      "jump": true
+    }
+  },
+  {
+    "name": ["T Roof", "Under Balcony"],
+    "weapon": "weapon_smokegrenade",
+    "position": [814.96881103516, -1549.0091552734, -108.96869659424],
+    "viewangles": [-27.97, 163.55]
+  },
+  {
+    "name": ["T Ramp", "T Ramp (Oneway)"],
+    "weapon": "weapon_smokegrenade",
+    "position": [457.9700012207, -1712, -240.94999694824],
+    "viewangles": [-10.48, 133.14]
+  },
+  {
+    "name": ["Tetris", "CT"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-91.089996337891, -1418.0100097656, -115.9700012207],
+    "viewangles": [-28.22, -114.38]
+  },
+  {
+    "name": ["T Spawn", "Cat"],
+    "weapon": "weapon_smokegrenade",
+    "position": [1422.9799804688, 70.970001220703, -112.90000152588],
+    "viewangles": [-32.65, -163.53],
+    "position_visibility": [-47, 0, 0]
+  },
+  {
+    "name": ["B Bombsite", "Alley"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-1862.9699707031, 176.02000427246, -159.9700012207],
+    "viewangles": [-42.82, 21.95]
+  },
+  {
+    "name": ["B Bombsite", "Palace"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-1863.9699707031, 335.9700012207, -159.9700012207],
+    "viewangles": [-31.19, -51.15],
+    "grenade": {
+      "run": 15,
+      "jump": true
+    }
+  },
+  {
+    "name": ["B Bombsite", "Kitchen (Oneway)"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-1435.9699707031, 283.9700012207, -167.9700012207],
+    "viewangles": [-6.47, -131.31]
+  },
+  {
+    "name": ["Palace", "Balcony"],
+    "weapon": "weapon_smokegrenade",
+    "position": [32.009998321533, -2375.9599609375, -39.970001220703],
+    "viewangles": [4.91, 59.56],
+    "approach_accurate": false
+  },
+  {
+    "name": ["Jungle", "A Ramp"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-879.96997070313, -1306.0300292969, -167.9700012207],
+    "viewangles": [-72.48, -11.12],
+    "grenade": {
+      "jump": true
+    }
+  },
+  {
+    "name": ["Middle", "Window"],
+    "weapon": "weapon_flashbang",
+    "position": [160.03129577637, 39.980701446533, -206.57850646973],
+    "viewangles": [-31.153, -31.5374]
+  },
+  {
+    "name": ["Palace", "Jungle"],
+    "weapon": "weapon_smokegrenade",
+    "position": [223.96879577637, -2375.96875, -39.968700408936],
+    "viewangles": [-2.2562, 137.9872],
+    "grenade": {
+      "run": 4
+    }
+  },
+  {
+    "name": ["Palace", "CT"],
+    "weapon": "weapon_smokegrenade",
+    "position": [141.23510742188, -2375.96875, -39.968700408936],
+    "viewangles": [9.3598, 120.6532],
+    "grenade": {
+      "run": 38,
+      "jump": true
+    }
+  },
+  {
+    "name": ["Alley", "Short"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-160.03120422363, 887.96881103516, -135.32809448242],
+    "viewangles": [-69.6016, -120.6052],
+    "grenade": {
+      "jump": true
+    }
+  },
+  {
+    "name": ["Alley", "Middle Window"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-160.03120422363, 887.96881103516, -135.32809448242],
+    "viewangles": [-54.8578, -120.4866],
+    "grenade": {
+      "jump": true
+    }
+  },
+  {
+    "name": ["Alley", "B Site"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-160.03120422363, 887.96881103516, -135.32809448242],
+    "viewangles": [-58.8617, -159.509],
+    "grenade": {
+      "jump": true
+    }
+  },
+  {
+    "name": ["Alley", "Back of B"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-784.01391601563, 623.96881103516, -75.968696594238],
+    "viewangles": [-56.8046, -158.0617]
+  },
+  {
+    "name": ["Alley", "Balcony"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-148.03120422363, 353.03131103516, -34.427700042725],
+    "viewangles": [-56.7246, 167.4539],
+    "grenade": {
+      "jump": true
+    }
+  },
+  {
+    "name": ["Alley", "Ninja Box"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-148.03120422363, 353.03131103516, -34.427700042725],
+    "viewangles": [-60.3726, -179.8413],
+    "grenade": {
+      "fov": 0.1,
+      "jump": true
+    }
+  },
+  {
+    "name": ["Alley", "Bench"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-148.03120422363, 353.03131103516, -34.427700042725],
+    "viewangles": [-45.7873, -177.8413],
+    "grenade": {
+      "jump": true
+    }
+  },
+  {
+    "name": ["Alley", "A CT"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-351.96868896484, 887.96881103516, -124.97450256348],
+    "viewangles": [-39.9089, -98.9729],
+    "grenade": {
+      "run": 20,
+      "jump": true
+    }
+  },
+  {
+    "name": ["Alley", "A Stairs"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-459.96868896484, 887.98718261719, -71.968696594238],
+    "viewangles": [-37.5656, -91.0756],
+    "grenade": {
+      "jump": true
+    }
+  },
+  {
+    "name": ["Alley", "A Jungle"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-160.03120422363, 887.96881103516, -135.32809448242],
+    "viewangles": [-36.5015, -101.4749],
+    "grenade": {
+      "jump": true
+    }
+  },
+  {
+    "name": ["Alley", "A Spot"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-161.03120422363, 728.35302734375, -71.968696594238],
+    "viewangles": [-38.0451, -96.3371],
+    "grenade": {
+      "run": 3,
+      "jump": true
+    }
+  },
+  {
+    "name": ["Alley", "Car"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-161.03120422363, 728.35302734375, -71.968696594238],
+    "viewangles": [-39.5681, -179.4638],
+    "grenade": {
+      "jump": true
+    }
+  },
+  {
+    "name": ["Under Balcony", "A Ramp (Oneway)"],
+    "weapon": "weapon_smokegrenade",
+    "position": [87.968803405762, -2165.96875, -110.23259735107],
+    "viewangles": [45.8028, -158.0523],
+    "grenade": {
+      "strength": 0.5
+    },
+    "duck": true
+  },
+  {
+    "name": ["B Apartments", "Short"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-1793.28515625, 839.9990234375, -47.968700408936],
+    "viewangles": [6.2359, -50.6099]
+  },
+  {
+    "name": ["B Apartments", "Kitchen Window"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-1520.03125, 680.03131103516, -47.968700408936],
+    "viewangles": [-6.1061, 105.3843],
+    "grenade": {
+      "run": 12
+    }
+  },
+  {
+    "name": ["B Bombsite", "A CT"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-1863.96875, 335.96881103516, -159.96870422363],
+    "viewangles": [-45.5026, -68.2842],
+    "grenade": {
+      "run": 21,
+      "jump": true
+    }
+  },
+  {
+    "name": ["CT", "CT"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-1438.0303955078, -848.03118896484, -167.96870422363],
+    "viewangles": [-52.7632, -71.0441],
+    "grenade": {
+      "jump": true
+    }
+  },
+  {
+    "name": ["Car", "Car (Oneway)"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-2364.1379394531, 808.31237792969, -80.258903503418],
+    "viewangles": [-10.099, -160.8867],
+    "grenade": {
+      "strength": 0.5
+    }
+  },
+  {
+    "name": ["Window", "Boost"],
+    "weapon": "weapon_molotov",
+    "position": [-1120.0263671875, -796.01702880859, -167.96870422363],
+    "viewangles": [-11.5511, 84.0478],
+    "grenade": {
+      "strength": 0.5
+    }
+  },
+  {
+    "name": ["Ninja", "Stairs"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-129.51879882813, -2413.96875, -163.96870422363],
+    "viewangles": [-16.512, 110.2583]
+  },
+  {
+    "name": ["Ninja", "Stairs"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-284.48129272461, -2413.9953613281, -163.96870422363],
+    "viewangles": [-16.633, 100.9113]
+  },
+  {
+    "name": ["Palace", "Stairs"],
+    "weapon": "weapon_flashbang",
+    "position": [223.96879577637, -2375.96875, -39.968700408936],
+    "viewangles": [-12.7607, 149.0037]
+  },
+  {
+    "name": ["T Spawn", "Kitchen Window"],
+    "weapon": "weapon_smokegrenade",
+    "position": [1398.9699707031, -1255.9699707031, -167.9700012207],
+    "viewangles": [-46, 159.9],
+    "grenade": {
+      "run": 12,
+      "jump": true
+    }
+  },
+  {
+    "name": ["CT", "Kitchen Window"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-1434.03125, -1173.96875, -167.96870422363],
+    "viewangles": [-62.7342, 117.4204]
+  },
+  {
+    "name": ["CT", "Kitchen Door"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-1434.03125, -1173.96875, -167.96870422363],
+    "viewangles": [-58.4625, 125.6787]
+  },
+  {
+    "name": ["Alley", "Stairs"],
+    "weapon": "weapon_smokegrenade",
+    "position": [560.83197021484, -1128.03125, -127.96869659424],
+    "viewangles": [-71.4081, -155.8817],
+    "grenade": {
+      "jump": true
+    }
+  },
+  {
+    "name": ["Alley", "Jungle"],
+    "weapon": "weapon_smokegrenade",
+    "position": [592.03131103516, -1200.03125, -223.96870422363],
+    "viewangles": [-68.43, -159.976],
+    "grenade": {
+      "jump": true
+    }
+  },
+  {
+    "name": ["Alley", "CT"],
+    "weapon": "weapon_smokegrenade",
+    "position": [700.05462646484, -1127.962890625, -251.03869628906],
+    "viewangles": [-53.7892, -141.0998],
+    "grenade": {
+      "jump": true
+    }
+  },
+  {
+    "name": ["Tetris", "Boxes"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-91.093803405762, -1418.03125, -115.96869659424],
+    "viewangles": [-1.0329, -106.7997]
+  },
+  {
+    "name": ["Underpass", "Connector"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-1071.96875, -380.03118896484, -263.96868896484],
+    "viewangles": [-5.5654, -46.3552]
+  },
+  {
+    "name": ["Underpass", "Jungle"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-1071.96875, -380.03118896484, -263.96868896484],
+    "viewangles": [-61.8623, -71.7893]
+  },
+  {
+    "name": ["Underpass", "Jungle"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-968.03118896484, -379.98840332031, -345.97088623047],
+    "viewangles": [-59.773, -76.1772]
+  },
+  {
+    "name": ["Underpass", "Short"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-968.03118896484, -380.01290893555, -345.95858764648],
+    "viewangles": [-44.9471, -76.866]
+  },
+  {
+    "name": ["Underpass", "Window"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-968.01928710938, -313.97509765625, -367.96868896484],
+    "viewangles": [-50.291176, -109.9137],
+    "grenade": {
+      "strength": 0.5
+    }
+  },
+  {
+    "name": ["Jungle", "Window"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-1216.03125, -1526.96875, -155.27769470215],
+    "viewangles": [-64.2536, 117.7838],
+    "grenade": {
+      "jump": true
+    }
+  },
+  {
+    "name": ["Jungle", "Arch"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-1216.03125, -1526.96875, -155.27769470215],
+    "viewangles": [-55.04, 97.0234],
+    "grenade": {
+      "jump": true
+    }
+  },
+  {
+    "name": ["Bench", "Jungle"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-2655.96875, 447.96881103516, -167.86570739746],
+    "viewangles": [-65.6339, -42.0869],
+    "grenade": {
+      "run": 19,
+      "jump": true
+    }
+  },
+  {
+    "name": ["B Short", "Short"],
+    "weapon": "weapon_flashbang",
+    "position": [-909.96868896484, 78.031303405762, -165.96870422363],
+    "viewangles": [-28.1517, -16.3124]
+  },
+  {
+    "name": ["T Spawn", "Jungle"],
+    "weapon": "weapon_smokegrenade",
+    "position": [1257.794921875, -871.96868896484, -143.96870422363],
+    "viewangles": [-42.5121, -160.4484],
+    "grenade": {
+      "jump": true
+    }
+  },
+  {
+    "name": ["T Roof", "Jungle"],
+    "weapon": "weapon_smokegrenade",
+    "position": [814.96881103516, -1549.0091552734, -108.96869659424],
+    "viewangles": [-66.2506, -178.4272],
+    "grenade": {
+      "jump": true
+    }
+  },
+  {
+    "name": ["T Roof", "Stairs"],
+    "weapon": "weapon_smokegrenade",
+    "position": [814.96881103516, -1549.0091552734, -108.96869659424],
+    "viewangles": [-68.4506, -178.4272],
+    "grenade": {
+      "jump": true
+    }
+  },
+  {
+    "name": ["T Spawn", "CT"],
+    "weapon": "weapon_smokegrenade",
+    "position": [1422.9893798828, 34.830600738525, -167.96870422363],
+    "viewangles": [-34.7438, -128.131],
+    "grenade": {
+      "run": 13,
+      "jump": true
+    }
+  },
+  {
+    "name": ["T Spawn", "Jungle"],
+    "weapon": "weapon_smokegrenade",
+    "position": [1422.96875, 70.968803405762, -112.90270233154],
+    "viewangles": [-64.7637, -141.5211],
+    "grenade": {
+      "run": 10,
+      "jump": true
+    }
+  },
+  {
+    "name": ["T Spawn", "Stairs"],
+    "weapon": "weapon_smokegrenade",
+    "position": [1359.3033447266, 519.97229003906, -258.40380859375],
+    "viewangles": [-75.9872, -130.9617],
+    "grenade": {
+      "run": 40,
+      "jump": true
+    }
+  },
+  {
+    "name": ["Ticket Booth", "Connector"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-911.73718261719, -2534.9025878906, -167.96870422363],
+    "viewangles": [-16.3007, 68.1231]
+  },
+  {
+    "name": ["Ticket Booth", "A Ramp"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-911.73712158203, -2534.9025878906, -167.96870422363],
+    "viewangles": [-66.0317, 43.0762],
+    "grenade": {
+      "jump": true
+    }
+  },
+  {
+    "name": ["Under Balcony", "Balcony"],
+    "weapon": "weapon_molotov",
+    "position": [150.96899414063, -2071.96875, -167.96870422363],
+    "viewangles": [-74.5197, -91.2853]
+  },
+  {
+    "name": ["Connector", "Cat"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-807.96868896484, -1235.96875, -167.96870422363],
+    "viewangles": [2.4679, 70.0749],
+    "grenade": {
+      "run": 4
+    }
+  },
+  {
+    "name": ["Top Mid", "Cat"],
+    "weapon": "weapon_smokegrenade",
+    "position": [399.54748535156, 280.40829467773, -254.61070251465],
+    "viewangles": [-73.7727, -133.2886],
+    "grenade": {
+      "jump": true
+    }
+  },
+  {
+    "name": ["Top Mid", "Jungle"],
+    "weapon": "weapon_smokegrenade",
+    "position": [399.54748535156, 280.40829467773, -254.61070251465],
+    "viewangles": [-48.5437, -119.6924],
+    "grenade": {
+      "jump": true
+    }
+  },
+  {
+    "name": ["T Spawn", "CT"],
+    "weapon": "weapon_smokegrenade",
+    "position": [447.96881103516, 679.96881103516, -165.96870422363],
+    "viewangles": [-50.9279, -113.1912],
+    "grenade": {
+      "run": 12,
+      "jump": true
+    }
+  },
+  {
+    "name": ["T Spawn", "Stairs"],
+    "weapon": "weapon_smokegrenade",
+    "position": [496.03131103516, 679.96881103516, -135.96870422363],
+    "viewangles": [-35.7617, -115.8205],
+    "grenade": {
+      "run": 3,
+      "jump": true
+    }
+  },
+  {
+    "name": ["Ninja", "CT"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-129.51879882813, -2413.96875, -163.96870422363],
+    "viewangles": [-3.146, 166.3207]
+  },
+  {
+    "name": ["Ninja", "Connector"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-129.51879882813, -2413.96875, -163.96870422363],
+    "viewangles": [-14.94, 117.2201]
+  },
+  {
+    "name": ["Ninja", "Connector"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-284.48129272461, -2413.96875, -163.96870422363],
+    "viewangles": [-6.1069, 108.1286]
+  },
+  {
+    "name": ["CT Spawn", "Middle (Deep)"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-2026.396484375, -2029.96875, -299.11999511719],
+    "viewangles": [-46.2329, 35.0964],
+    "grenade": {
+      "fov": 0.26,
+      "run": 15,
+      "jump": true
+    }
+  },
+  {
+    "name": ["Tetris", "Connector"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-91.093803405762, -1418.03125, -115.96869659424],
+    "viewangles": [-30.1851, -115.6069],
+    "grenade": {
+      "run": 20
+    }
+  },
+  {
+    "name": ["T Spawn", "Window"],
+    "weapon": "weapon_smokegrenade",
+    "position": [1422.96875, -248.03120422363, -167.96870422363],
+    "viewangles": [-25.72, -170.5],
+    "grenade": {
+      "jump": true
+    }
+  },
+  {
+    "name": ["Middle", "Middle (Oneway)"],
+    "weapon": "weapon_smokegrenade",
+    "position": [370.08511352539, -720.52270507813, -162.4873046875],
+    "viewangles": [35.3763, 124.1358],
+    "grenade": {
+      "strength": 0
+    }
+  },
+  {
+    "name": ["Alley", "Window"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-624.24353027344, 615.99212646484, -78.969299316406],
+    "viewangles": [-51.5956, -109.4211]
+  },
+  {
+    "name": ["Car", "Kitchen Door"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-2325.2282714844, 811.77697753906, -119.84130096436],
+    "viewangles": [-14.884, -94.3432]
+  },
+  {
+    "name": ["T Spawn", "Window"],
+    "weapon": "weapon_smokegrenade",
+    "position": [1391.96875, -1011.2360839844, -167.96870422363],
+    "viewangles": [-49.6031, 172.1889],
+    "grenade": {
+      "run": 28
+    }
+  },
+  {
+    "name": ["T Spawn", "Firebox"],
+    "weapon": "weapon_smokegrenade",
+    "position": [1391.96875, -930.07629394531, -167.96870422363],
+    "viewangles": [-21.0373, -151.2049],
+    "grenade": {
+      "jump": true
+    }
+  },
+  {
+    "name": ["CT", "CT (Oneway)"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-964.05688476563, -2489.5202636719, -167.96870422363],
+    "viewangles": [-41.9266, -10.7656],
+    "grenade": {
+      "strength": 0
+    }
+  },
+  {
+    "name": ["Bench", "Kitchen (Oneway)"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-2600.0192871094, 535.97302246094, -159.96870422363],
+    "viewangles": [-16.5824, -50.8181]
+  },
+  {
+    "name": ["CT Spawn", "B Apartments"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-2026.4008789063, -2029.96875, -299.12100219727],
+    "viewangles": [-39.5941, 81.1775],
+    "grenade": {
+      "fov": 0.1,
+      "run": 9,
+      "jump": true
+    }
+  },
+  {
+    "name": ["CT Spawn", "B Alley"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-2026.4008789063, -2029.96875, -299.12100219727],
+    "viewangles": [-40.5941, 67.9775],
+    "grenade": {
+      "fov": 0.1,
+      "run": 17,
+      "jump": true
+    }
+  },
+  {
+    "name": ["B Arch", "B Apartments"],
+    "weapon": "weapon_molotov",
+    "position": [-1292.7435302734, 220.95629882813, -167.96870422363],
+    "viewangles": [-14.5759, 131.3971]
+  },
+  {
+    "name": ["CT Spawn", "Middle"],
+    "weapon": "weapon_flashbang",
+    "position": [-1710.9973144531, -1208.03125, -255.07699584961],
+    "viewangles": [-37.6867, 45.553]
+  },
+  {
+    "name": ["Window", "Middle"],
+    "weapon": "weapon_flashbang",
+    "position": [-1120.0004882813, -854.40777587891, -167.96870422363],
+    "viewangles": [-14.278, 88.3701]
+  },
+  {
+    "name": ["B Alley", "Car Crate"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-148.06379699707, 353.03131103516, -34.427700042725],
+    "viewangles": [-51.414, 174.2614],
+    "grenade": {
+      "jump": true
+    }
+  },
+  {
+    "name": ["A Bombsite", "A Ramp"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-879.97277832031, -2264.0212402344, -171.08120727539],
+    "viewangles": [-9.0761, 33.3076]
+  },
+  {
+    "name": ["Connector", "Connector (Oneway)"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-807.96868896484, -1152.03125, -120.17539978027],
+    "viewangles": [29.4475, 12.465],
+    "grenade": {
+      "strength": 0.5
+    }
+  },
+  {
+    "name": ["Tetris", "Ticket"],
+    "weapon": "weapon_molotov",
+    "position": [-31.916000366211, -1418.0208740234, -167.96870422363],
+    "viewangles": [1.6779, -127.554],
+    "grenade": {
+      "jump": true
+    }
+  },
+  {
+    "name": ["Tetris", "Firebox"],
+    "weapon": "weapon_molotov",
+    "position": [-91.095397949219, -1418.0015869141, -115.96869659424],
+    "viewangles": [-11.4559, -102.9719]
+  },
+  {
+    "name": ["T Ramp", "Danger Box"],
+    "weapon": "weapon_molotov",
+    "position": [479.26998901367, -1556.03125, -251.60009765625],
+    "viewangles": [-9.2895, -174.5778],
+    "grenade": {
+      "fov": 0.1,
+      "run": 25
+    }
+  },
+  {
+    "name": ["Under Balcony", "Tetris"],
+    "weapon": "weapon_molotov",
+    "position": [150.9967956543, -2071.96875, -167.96870422363],
+    "viewangles": [-8.2775, 117.2909]
+  },
+  {
+    "name": ["Top Mid", "Window"],
+    "weapon": "weapon_molotov",
+    "position": [399.96881103516, -120.58170318604, -165.96870422363],
+    "viewangles": [-17.0115, -153.0781],
+    "grenade": {
+      "fov": 0.1,
+      "run": 40
+    }
+  },
+  {
+    "name": ["T Spawn", "Window"],
+    "weapon": "weapon_smokegrenade",
+    "position": [1422.9899902344, 34.830001831055, -167.9700012207],
+    "viewangles": [-22.804130554199, 162.60900878906],
+    "grenade": {
+      "run": 44,
+      "run_yaw": 90,
+      "jump": true
+    }
+  },
+  {
+    "name": ["Middle", "Top Middle"],
+    "weapon": "weapon_flashbang",
+    "position": [224.03125, 121.69119262695, -234.54705810547],
+    "viewangles": [-45.584205627441, -95.476379394531],
+    "grenade": {
+      "strength": 0.5
+    }
+  },
+  {
+    "name": ["Car", "B Apartments"],
+    "weapon": "weapon_flashbang",
+    "position": [-2391.9072265625, 597.26690673828, -127.96875],
+    "viewangles": [-42.61332321167, 16.187744140625],
+    "grenade": {
+      "strength": 0.5
+    }
+  },
+  {
+    "name": ["Balcony", "Tetris"],
+    "weapon": "weapon_flashbang",
+    "position": [150.99913024902, -1914.03125, -39.96875],
+    "viewangles": [-80.629165649414, -166.74633789063],
+    "grenade": {
+      "strength": 0.5
+    }
+  },
+  {
+    "name": ["Window", "Middle"],
+    "weapon": "weapon_flashbang",
+    "position": [-1120.0007324219, -967.65716552734, -167.96875],
+    "viewangles": [-15.614429473877, 90.012619018555],
+    "duck": true
+  },
+  {
+    "name": ["Alley", "B Arch (Left)"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-148.03125, 379.96875, -34.427696228027],
+    "viewangles": [-59.368057250977, -172.42366027832]
+  },
+  {
+    "name": ["Alley", "B Arch (Right)"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-623.92065429688, 615.96875, -78.971527099609],
+    "viewangles": [-72.726470947266, -167.90901184082]
+  },
+  {
+    "name": ["Jungle-Window", "B Arch (for Short)"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-1434.03125, -1173.9876708984, -167.96875],
+    "viewangles": [-59.948841094971, 99.875823974609]
+  },
+  {
+    "name": ["CT Spawn", "A Ramp"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-1710.9639892578, -1559.8737792969, -259.67324829102],
+    "viewangles": [-52.081638336182, -3.0673487186432]
+  },
+  {
+    "name": ["Middle", "Window"],
+    "weapon": "weapon_smokegrenade",
+    "position": [446.30285644531, -611.88092041016, -159.96875],
+    "viewangles": [-15.332604408264, -179.23001098633],
+    "grenade": {
+      "run": 10
+    }
+  },
+  {
+    "name": ["T Apts", "B Balcony"],
+    "weapon": "weapon_smokegrenade",
+    "position": [459.99105834961, 679.99993896484, -123.96875],
+    "viewangles": [-43.579734802246, 179.51657104492],
+    "grenade": {
+      "run": 2,
+      "jump": true
+    }
+  },
+  {
+    "name": ["Appartments", "Tunnel Stairs"],
+    "weapon": "weapon_molotov",
+    "position": [-1068.4050292969, 478.5110168457, -79.96875],
+    "viewangles": [-8.8410577774048, 36.511608123779]
+  },
+  {
+    "name": ["Middle", "Underpass"],
+    "weapon": "weapon_molotov",
+    "position": [276.64031982422, -161.47082519531, -167.20378112793],
+    "viewangles": [-8.4819774627686, -145.58026123047],
+    "grenade": {
+      "run": 22
+    }
+  },
+  {
+    "name": ["Window", "Underpass"],
+    "weapon": "weapon_molotov",
+    "position": [-1120.0157470703, -967.65441894531, -167.96875],
+    "viewangles": [-3.8399486541748, 114.54653167725],
+    "grenade": {
+      "run": 11
+    }
+  },
+  {
+    "name": ["T Roof", "Stairs"],
+    "weapon": "weapon_molotov",
+    "position": [965.48706054688, -1224.6025390625, -108.96875],
+    "viewangles": [-17.919979095459, -164.94496154785],
+    "grenade": {
+      "run": 2
+    }
+  },
+  {
+    "name": ["CT Spawn", "A Default"],
+    "weapon": "weapon_molotov",
+    "position": [-1309.7186279297, -2314.0322265625, -208.17628479004],
+    "viewangles": [-11.408018112183, -4.4821853637695],
+    "grenade": {
+      "run": 21
+    }
+  },
+  {
+    "name": ["Tetris", "Stairs"],
+    "weapon": "weapon_molotov",
+    "position": [-91.095397949219, -1418.0015869141, -115.96869659424],
+    "viewangles": [-8.0419101715088, -63.379062652588],
+    "grenade": {
+      "run": 8,
+      "jump": true
+    }
+  },
+  {
+    "name": ["Balcony", "Palace"],
+    "weapon": "weapon_flashbang",
+    "position": [150.96896362305, -2071.9697265625, -37.968799591064],
+    "viewangles": [-1.7049994468689, 103.69345092773],
+    "grenade": {
+      "run": 2
+    }
+  },
+  {
+    "name": ["Under Balcony", "A Ramp"],
+    "weapon": "weapon_flashbang",
+    "position": [150.96896362305, -1914.03125, -167.96875],
+    "viewangles": [-44.990062713623, -104.78149414063],
+    "grenade": {
+      "run": 1
+    }
+  },
+  {
+    "name": ["Sandwich", "Stairs"],
+    "weapon": "weapon_flashbang",
+    "position": [-260.13925170898, -1528.03125, -167.96875],
+    "viewangles": [-58.354965209961, 168.86293029785]
+  },
+  {
+    "name": ["Connector", "Middle"],
+    "weapon": "weapon_flashbang",
+    "position": [-727.80731201172, -1306.8956298828, -167.96899414063],
+    "viewangles": [24.870004653931, 76.525924682617]
+  },
+  {
+    "name": ["Window", "Middle"],
+    "weapon": "weapon_flashbang",
+    "position": [-1196.7117919922, -856.03125, -167.96899414063],
+    "viewangles": [-62.754917144775, 62.113510131836]
+  },
+  {
+    "name": ["Short", "Middle"],
+    "weapon": "weapon_flashbang",
+    "position": [-856.77416992188, 79.287704467773, -165.96875],
+    "viewangles": [-46.245037078857, -63.194976806641]
+  },
+  {
+    "name": ["Car", "B Apartments"],
+    "weapon": "weapon_flashbang",
+    "position": [-2114.0141601563, 830.58367919922, -121.5785446167],
+    "viewangles": [-63.690082550049, 32.031307220459]
+  },
+  {
+    "name": ["B Site", "B Site"],
+    "weapon": "weapon_flashbang",
+    "position": [-2199.5549316406, 23.96875, -167.96875],
+    "viewangles": [-14.134895324707, -76.632881164551]
+  },
+  {
+    "name": ["Apartments", "Car"],
+    "weapon": "weapon_flashbang",
+    "position": [-1038.03125, 390.03125, -79.968803405762],
+    "viewangles": [-14.960005760193, -111.07800292969]
+  },
+  {
+    "name": ["Apartments", "B Bombsite"],
+    "weapon": "weapon_flashbang",
+    "position": [-1008.03125, 520.03125, -79.96875],
+    "viewangles": [-5.7198610305786, 142.89027404785],
+    "grenade": {
+      "run": 20
+    }
+  },
+  {
+    "name": ["Top of Mid", "Middle"],
+    "weapon": "weapon_flashbang",
+    "position": [399.55679321289, 280.39904785156, -254.60954284668],
+    "viewangles": [-25.400053024292, -125.45390319824],
+    "approach_accurate": false
+  },
+  {
+    "name": ["T Spawn", "A Ramp"],
+    "weapon": "weapon_flashbang",
+    "position": [815.99884033203, -1457.7581787109, -108.96875],
+    "viewangles": [-24.299993515015, 166.73753356934]
+  },
+  {
+    "name": ["Palace", "Under Balcony"],
+    "weapon": "weapon_flashbang",
+    "position": [367.99481201172, -2207.673828125, -39.968799591064],
+    "viewangles": [-12.255010604858, -132.39933776855],
+    "grenade": {
+      "run": 2
+    }
+  },
+  {
+    "name": ["Palace", "A Bombsite"],
+    "weapon": "weapon_flashbang",
+    "position": [32.026546478271, -2375.9907226563, -39.968799591064],
+    "viewangles": [-57.30001449585, 96.770286560059]
+  },
+  {
+    "name": ["B Apartments", "B Site"],
+    "weapon": "weapon_flashbang",
+    "position": [-1520.03125, 680.10461425781, -47.96875],
+    "viewangles": [-3.5648748874664, 102.8856048584]
+  },
+  {
+    "name": ["B Apartments", "B Site"],
+    "weapon": "weapon_flashbang",
+    "position": [-1471.96875, 664.03125, -47.96875],
+    "viewangles": [-7.0737943649292, 113.41221618652]
+  },
+  {
+    "name": ["B Apartments", "B Site"],
+    "weapon": "weapon_flashbang",
+    "position": [-1359.96875, 664.03125, -79.96875],
+    "viewangles": [-4.8957672119141, 139.82070922852]
+  },
+  {
+    "name": ["Ninja", "CT"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-284.48098754883, -2413.9951171875, -163.96899414063],
+    "viewangles": [-7.1950054168701, 165.12905883789],
+    "grenade": {
+      "run": 1,
+      "run_yaw": 180
+    }
+  },
+  {
+    "name": ["Underpass", "Palace"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-1071.9699707031, -380.0299987793, -263.9700012207],
+    "viewangles": [-38.114967346191, -56.260673522949],
+    "grenade": {
+      "jump": true
+    }
+  },
+  {
+    "name": ["T Spawn", "Stairs"],
+    "weapon": "weapon_smokegrenade",
+    "position": [743.99688720703, -1290.0190429688, -255.40243530273],
+    "viewangles": [-68.542083740234, -165.90538024902],
+    "grenade": {
+      "jump": true
+    }
+  },
+  {
+    "name": ["T Spawn", "Jungle"],
+    "weapon": "weapon_smokegrenade",
+    "position": [743.99688720703, -1290.0190429688, -255.40243530273],
+    "viewangles": [-60.081237792969, -168.61810302734],
+    "grenade": {
+      "jump": true
+    }
+  },
+  {
+    "name": ["T Spawn", "A Bombsite (Popflash)"],
+    "weapon": "weapon_flashbang",
+    "position": [580.20007324219, -1719.0651855469, -258.49688720703],
+    "viewangles": [-7.3227958679199, 174.12680053711]
+  },
+  {
+    "name": ["Sandwich", "Stairs"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-261.38900756836, -1546.3599853516, -167.90600585938],
+    "viewangles": [-68.410171508789, -7.9532790184021]
+  },
+  {
+    "name": ["CT Spawn", "B Site"],
+    "weapon": "weapon_flashbang",
+    "position": [-1360.8408203125, -1173.9996337891, -117.11171722412],
+    "viewangles": [-12.464729309082, 136.13885498047],
+    "grenade": {
+      "run": 12,
+      "jump": true
+    }
+  },
+  {
+    "name": ["Palace", "A Boxes"],
+    "weapon": "weapon_molotov",
+    "position": [16.031322479248, -2237.4584960938, -39.96875],
+    "viewangles": [-3.2351875305176, 15.779910087585],
+    "grenade": {
+      "run": 6
+    }
+  },
+  {
+    "name": ["Back Alley", "Window"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-161.03125, 576.04022216797, -69.897148132324],
+    "viewangles": [-8.1630268096924, -154.47583007813],
+    "grenade": {
+      "jump": true
+    }
+  },
+  {
+    "name": ["Back Alley", "Window (Oneway)"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-871.57177734375, 613.90246582031, -79.768218994141],
+    "viewangles": [-66.3857421875, -139.48847961426],
+    "grenade": {
+      "jump": true
+    }
+  },
+  {
+    "name": ["Connector", "Chair"],
+    "weapon": "weapon_molotov",
+    "position": [-659.54156494141, -965.57873535156, -215.96875],
+    "viewangles": [-28.459676742554, 74.832748413086],
+    "grenade": {
+      "run": 21
+    }
+  }
+]

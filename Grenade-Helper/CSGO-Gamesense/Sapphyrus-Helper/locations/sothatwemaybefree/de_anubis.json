@@ -1,0 +1,75 @@
+[
+  {
+    "name": ["T Spawn", "Bridge"],
+    "weapon": "weapon_smokegrenade",
+    "position": [80.190437316895, -1759.96875, 32.749176025391],
+    "viewangles": [-17.817588, 93.871528],
+    "grenade": {
+      "jump": true
+    },
+    "tickrate": [
+      64
+    ]
+  },
+  {
+    "name": ["Water", "Heaven"],
+    "weapon": "weapon_smokegrenade",
+    "position": [842.00445556641, 154.03125, -158.17127990723],
+    "viewangles": [-30.168241, 86.512016],
+    "grenade": {
+      "jump": true
+    },
+    "tickrate": [
+      64
+    ]
+  },
+  {
+    "name": ["Bridge", "Connector"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-24.03125, 279.99356079102, 8.0240087509155],
+    "viewangles": [-19.323513, -169.734359]
+  },
+  {
+    "name": ["Ruins", "Connector"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-1016.03125, -103.04872131348, -1.96875],
+    "viewangles": [-60.244617, 109.081336],
+    "duck": true
+  },
+  {
+    "name": ["Water", "Walkway \/ Heaven"],
+    "weapon": "weapon_smokegrenade",
+    "position": [921.40814208984, 421.80279541016, -188.17797851563],
+    "viewangles": [-28.890155, 95.534675]
+  },
+  {
+    "name": ["Ruins", "Alley"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-1103.9930419922, -473.96875, 56.03125],
+    "viewangles": [-39.500637, 90.063072]
+  },
+  {
+    "name": ["Street", "Bridge"],
+    "weapon": "weapon_smokegrenade",
+    "position": [212.03125, -587.03106689453, -4.6079339981079],
+    "viewangles": [-22.726913, 114.518516]
+  },
+  {
+    "name": ["Water", "Walkway"],
+    "weapon": "weapon_smokegrenade",
+    "position": [850.00738525391, 303.93487548828, -182.31492614746],
+    "viewangles": [-30.753484, 87.713386]
+  },
+  {
+    "name": ["Ruins", "Palace"],
+    "weapon": "weapon_smokegrenade",
+    "position": [-1368.8137207031, -331.00561523438, 96.03125],
+    "viewangles": [-36.001827, 76.917701]
+  },
+  {
+    "name": ["Banana", "Bombsite A"],
+    "weapon": "weapon_molotov",
+    "position": [1626.0069580078, 1343.4990234375, -146.78479003906],
+    "viewangles": [-27.916738, 94.483604]
+  }
+]
